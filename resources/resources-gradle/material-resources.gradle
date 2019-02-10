@@ -1,0 +1,39 @@
+ext{
+    sizeDirs = [
+            'src/main/res',
+            'src/main/res-size',
+            'src/main/res-size/scale-independent-pixel',
+            'src/main/res-size/density-independent-pixel'
+    ]
+
+    drawableDirs = [
+            'src/main/res',
+            'src/main/res-drawable',
+            'src/main/res-drawable/action',
+            'src/main/res-drawable/device',
+            'src/main/res-drawable/toggle',
+            'src/main/res-drawable/social',
+            'src/main/res-drawable/places',
+            'src/main/res-drawable/notification',
+            'src/main/res-drawable/navigation',
+            'src/main/res-drawable/maps',
+            'src/main/res-drawable/image',
+            'src/main/res-drawable/hardware',
+            'src/main/res-drawable/file',
+            'src/main/res-drawable/alert',
+            'src/main/res-drawable/content',
+            'src/main/res-drawable/av',
+            'src/main/res-drawable/editor',
+            'src/main/res-drawable/communication'
+    ]
+
+    viewDirs = [
+            'src/main/res',
+            'src/main/res-custom-view'
+    ]
+
+    assetsFontDirs = [
+            'src/main/assets',
+            'src/main/assets/font'
+    ]
+}
