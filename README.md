@@ -6,7 +6,7 @@ All resources defined and generated for android. this library will help you to
 organized your resources, also it might help you to develop faster since you
 will do a less declaration to your resources.
 
-# Download
+## Download
 
 You can download a jar from Github’s [releases page](https://github.com/benidict1995/material-resources/releases).
 
@@ -66,6 +66,18 @@ Resources covered by this library.
 | dimen (sp) | @dimen/material_resources_text_size_16sp      |
 
 
+## MaterialResourcesTintDrawable
+This will help developer to change the tint of the image, vector,
+
+| Function        | Description           |
+| ------------- |:-------------:|
+| withContext      |  Context of current class. |
+| withColor      |  Color want to use for tint.      |
+| withDrawable | Image or Icon that want to change tint.     |
+| tint | Call this to process the tint.   |
+| applyToBackground | Image or Icon that want to change the background |
+| applyTo | Component that you used **eg. ImageView, MenuItem.**    |
+
 ## How do I use Tint Drawable Helper?
 
 Simple use case will look something like this:
@@ -99,15 +111,14 @@ class MainActivity : AppCompatActivity(){
     }
 
 }
-```	
+```
+	
+## Author
+Benidict Dulce - @benidict1995 on GitHub.
 
-## MaterialResourcesTintDrawable
+## Compatibility
+*  **Minimum Android SDK** Material Resources requires a minimum API level of 23.
+*  **Maximum Android SDK** Material Resources requires a maximum API level of 28 or later.
 
-| Function        | Description           |
-| ------------- |:-------------:|
-| withContext      | Pass the context of current class. |
-| withColor      | Pass the color that will tint.      |
-| withDrawable | Image or Icon that want to change tint.     |
-| tint | Call this to process the tint.   |
-| applyToBackground | Pass the view and this will be change the background of the icon or image.  |
-| applyTo | Pass the component that you used **eg. ImageView, MenuItem.**    |
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/benidict1995/material-resources/blob/master/LICENSE) file for details.
