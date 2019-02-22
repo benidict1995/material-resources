@@ -58,19 +58,15 @@ Resources covered by this library.
 * Density Independent Pixel
 * Scale Independent Pixel
 
-# How do I use Values Resources ?
+| Resources        | Values           |
+| ------------- |:-------------:|
+| color      | @color/material_resources_white_hex_FFFFFF |
+| icon      | @drawable/material_resources_ic_star_default_24dp      |
+| dimen (dp) | @dimen/material_resources_margin_10dp      |
+| dimen (sp) | @dimen/material_resources_text_size_16sp      |
 
-/***
-| __Resources__     |  __Values__ |
-|---------------|------------------|
-| color     | @color/material_resources_white_hex_FFFFFF |
-| icon       | @drawable/material_resources_ic_star_default_24dp  |
-| dimen (dp)  | @dimen/material_resources_margin_10dp |
-| dimen (sp)  | @dimen/material_resources_text_size_16sp |
 
-***/
-
-# How do I use Tint Drawable Helper?
+## How do I use Tint Drawable Helper?
 
 Simple use case will look something like this:
 
@@ -105,15 +101,13 @@ class MainActivity : AppCompatActivity(){
 }
 ```	
 
-#MaterialResourcesTintDrawable
+## MaterialResourcesTintDrawable
 
-/***
-| __Method__     |   __Function__ |
-|---------------|------------------|
-| withContext     | context of current class  |
-| withColor         | color of the tint          |
-| withDrawable  | drawable will be tint  |
-| tint                    | process of tinting view  |
-| applyToBackground | tint applying on background of the view |
-| applyTo| View either ImageView or MenuItem |
-***/
+| Function        | Description           |
+| ------------- |:-------------:|
+| withContext      | Pass the context of current class. |
+| withColor      | Pass the color that will tint.      |
+| withDrawable | Image or Icon that want to change tint.     |
+| tint | Call this to process the tint.   |
+| applyToBackground | Pass the view and this will be change the background of the icon or image.  |
+| applyTo | Pass the component that you used **eg. ImageView, MenuItem.**    |
